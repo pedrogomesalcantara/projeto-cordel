@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 1em
+}
+
+
+:root {
+    --font-padrao:'Arial, Helvetica', serif;
+    --font-titulo: 'Passion One', cursive;
+    --font-cordel:'Sriracha', cursive;
+}
+
+
+body {
+    min-height: 100vh;
+}
+
+header {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+header h1 {
+    font-size: 8vw;
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-family: var(--font-titulo);
+    
+}
+
+header a {
+    color: white;
+    font-size: 1.2em;
+    text-decoration: none;
+    
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+header p {
+    padding-bottom:50px ;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;  
+    font-size: 3vw;
+}
+    
+
+
+.estrofe {
+
+    font-family: var(--font-cordel);            
+    text-align: justify;            
+              
+} 
+    
+.estrofe p {
+    
+    font-family: var(--font-cordel);
+    text-align: justify;
+ 
+}
+
+#img01 {
+  
+
+    background: black url(../pacote-d012/imagens/background001.jpg) right center no-repeat fixed;
+    background-size: cover;
+}
+
+
+.parallax p {
+    font-family: var(--font-cordel);
+    text-align: justify;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.453) , rgba(15, 15, 15, 0.319));
+    width: 50vw;
+    color: white;
+    padding: 10px;
+}
+
+
+.paragrafo {
+    padding-bottom: 100px;
+    
+}
+
+#img02{
+ 
+
+    background: black url(../pacote-d012/imagens/background002.jpg) right center no-repeat fixed;
+    background-size: cover;
+}
+
+
+footer {            
+    text-align: center;            
+    background-color: black;                                
+    color: white;  
+    padding-top: 5px;             
+                
+}                
+                
+footer p {                
+    font-size: 1.2em;   
+    padding-bottom: 5px;             
+}                
